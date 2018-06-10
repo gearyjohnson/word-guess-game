@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Word Guess Game</title>
+
+	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Users/gearyjohnson/Documents/Homework/hw-3-javascript/Word-Guess-Game/assets/css/style.css">
+</head>
+<body>
+	
+	
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+                
+            <h2>Word Guess Game</h2>
+                
+            <h4>Guess which 80's movie from image</h4>
+            <h5>Spacebar is an option</h5>
+            
+        
+        </div>
+    </div>
+
+		
+		<div class="row">
+			<div class="col-sm-6">
+
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>Which movie</strong></h3>
+					</div>
+					<div class="panel-body">
+						
+						<h3 id="spaceInGuess">_ _ _ _ _ _ _ _ _ </h3>
+					</div>
+				</div>
+
+				
+				<div class="panel panel-default">
+					<div class="panel-body">
+
+						
+						<strong>Wrong letter: </strong> <span id="guessCounter"></span>
+					</div>
+				</div>
+
+				
+				<div class="panel panel-default">
+					<div class="panel-body">
+
+						
+						<strong>How many guesses: </strong> <span id="blanks">6</span>
+					</div>
+				</div>
+
+				
+				<div class="panel panel-default">
+					<div class="panel-body">
+
+						
+						<strong>Wins: </strong> <span id="wins">0</span>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-body">
+
+						
+						<strong>Losses: </strong> <span id="losses">0</span>
+					</div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <p id="reset"><a href="index.html">RESTART</a></p>
+            <span id="photos"><strong>Photos</strong></span>
+        </div>
+        <div class="col-sm-12">   
+            <img src="https://s-i.huffpost.com/gen/1839949/images/n-FERRIS-BUELLER-628x314.jpg"alt="ferris bueller's day off" height="100" width="150"> 
+            
+            <img src="http://www.ramascreen.com/wp-content/uploads/Michael-J.-Fox-Marty-McFly.png"alt="back to the future" height="100" width="150"> 
+    
+            <img src="https://files.shandymedia.com/wp-content/uploads/2017/05/14002725/13-bts-80s.jpg"alt="the breakfast club" height="100" width="150"> 
+           
+            <img src="http://digitalspyuk.cdnds.net/17/21/768x432/gallery-1495712686-bill-and-teds-excellent-adventure.jpg"alt="bill and ted's excellent adventure" height="100" width="150"> 
+
+        </div>
+    </div>
+</div>
+
+	
+	
+	<script src="/Users/gearyjohnson/Documents/Homework/hw-3-javascript/Word-Guess-Game/assets/javascript/game.js"></script>
+</body>
+</html>

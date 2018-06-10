@@ -1,0 +1,51 @@
+body {
+    background-color:rgb(18, 10, 21);
+    color: purple; 
+} 
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -260px;
+    color: purple;
+    font-family: fantasy;
+    font-size: 50px;
+    float:center;
+}
+#homepage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+#title{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -25px;
+    color: purple;
+    font-family: fantasy;
+    font-size: 20px;
+    float:center;
+}
+
+#link{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -25px;
+    color: purple;
+    font-family: fantasy;
+    font-size: 20px;
+    float:center;
+}
+#reset{
+    color: purple;
+    font-family: fantasy;
+    font-size: 20px;
+    float:center;
+}
